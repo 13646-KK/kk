@@ -1,0 +1,30 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <title>新生</title>  
+  <style>  
+    /* 使用CSS来设置video的样式 */  
+    .video-container {  
+      display: flex;  
+      justify-content: center; /* 水平居中 */  
+      align-items: center; /* 垂直居中（如果父元素是flex容器且高度已定义） */  
+      height: 100vh; /* 假设您希望视频占据整个视口的高度 */  
+      margin: 0; /* 移除任何可能的外部边距 */  
+      padding: 0; /* 移除任何可能的内部填充 */  
+      overflow: hidden; /* 如果视频比视口大，则隐藏超出部分 */  
+      background-color: #000; /* 设置背景色为黑色，以提供更好的视频观看体验 */  
+    }  
+      
+    video {  
+      max-width: 100%; /* 确保视频不会超出其容器宽度 */  
+      height: auto; /* 保持视频的原始宽高比 */  
+    }  
+  </style>  
+</head>  
+<body>  
+  <div class="video-container">  
+    <video src="新生.mp4" controls></video>  
+  </div>  
+</body>  
+</html>
